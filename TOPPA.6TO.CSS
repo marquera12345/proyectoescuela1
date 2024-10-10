@@ -1,0 +1,224 @@
+.body {
+    margin: 0%;
+}
+
+.cuerpoprincipal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Encabezadoprincipal {
+    font-style: italic;
+    font-size: 2.5em;
+    background-color: #7FFFD4;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #004d00;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.posicionimagen {
+    align-items: end;
+    width: 100%;
+}
+
+.pie {
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.derechosdeautor {
+    width: 35%;
+    font-size: 26px;
+
+    color: white;
+    text-align: left;
+}
+
+.autores {
+    font-size: 16px;
+
+    width: 35%;
+    color: white;
+    text-align: left;
+}
+
+.autores ul {
+    list-style: none;
+
+    padding: 0;
+}
+
+.autores a {
+    color: lightblue;
+
+    text-decoration: none;
+
+}
+
+.autores a:hover {
+    text-decoration: underline;
+}
+
+
+.imagenfooder {
+    width: 30%;
+
+    text-align: right;
+}
+
+
+.imagenfooder img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 2px solid #007bff;
+    border-top: 2px solid #007bff;
+
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.Encabezado {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    color: #343a40;
+}
+
+.menugeneral {
+    background-color: #e0f7fa;
+    padding: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.menu1 {text-align: center;}
+
+
+.menu1 a{
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu1 a:hover {
+    background-color: #b2ebf2;/
+}
+.menusecundario {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.menu2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu2 a {
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    transition: all 0.3s 
+}
+
+.menu2 a:hover {
+    color: #fff; 
+    background-color: #ff6347; 
+    border-radius: 5px;
+    border-color: #ff6347;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+.informacionproducto {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.descripccionproducto {
+    margin-bottom: 15px;
+}
+
+.descripccionproducto h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.descrripcion {
+    margin-top: 5px;
+    color: #555;
+}
+
+.Enlistadoingredientes {
+    margin-top: 10px;
+}
+
+.listado {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.alérgenos {
+    color: #d9534f; /* Color para alérgenos */
+    font-weight: bold;
+}

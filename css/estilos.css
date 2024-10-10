@@ -1,0 +1,28 @@
+body{
+
+    margin: 0;
+}
+
+.ContenedorPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Header{
+    background-color: blue;
+    width: 100%;
+}
+
+.Contenido{
+    background-color: blueviolet;
+    width: 80%;
+}
+
+.Sidebar{
+    background-color: brown;
+    width: 20%;
+}
+
+.Footer{ background-color: cadetblue;
+    width: 100%;}
+   
