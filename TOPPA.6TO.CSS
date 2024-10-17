@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 .body {
     margin: 0%;
 }
@@ -69,9 +70,14 @@
 .autores a:hover {
     text-decoration: underline;
 }
+.acercadenosotros {padding: 25px;}
 
+.texto {font-size: x-large;
+    font-family: "Afacad Flux", sans-serif;
+line-height: 32.5px;}
 
-.imagenfooder {
+  
+.imagenfooder{
     width: 30%;
 
     text-align: right;
@@ -201,7 +207,9 @@ th {
 .img{
     width: 100%; 
     height: auto; 
-    border-radius: 8px}
+    border-radius: 8px;
+text-align: center;}
+.ancho {width: 150px;}
 
 .descripccionproducto {
     margin-bottom: 15px;
